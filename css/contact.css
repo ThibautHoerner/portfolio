@@ -1,0 +1,56 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 50px;
+  color: white;
+  margin: 50px auto;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 10px;
+  border: solid;
+}
+
+input:hover,
+textarea:hover {
+  background: #fcccaa;
+  color: black;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.map {
+  background-color: white;
+  padding: 80px;
+}
+
+.map div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
